@@ -13,7 +13,16 @@
 		F9373CDE2BA7CFAE00E3F692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9373CDC2BA7CFAE00E3F692 /* Main.storyboard */; };
 		F9373CEC2BA7DB7E00E3F692 /* RegisterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F9373CEB2BA7DB7E00E3F692 /* RegisterTool.m */; };
 		F9373CEF2BA7E0E900E3F692 /* SechemaURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */; };
-		F9373CF12BA7E91100E3F692 /* NetworkDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CF02BA7E91100E3F692 /* NetworkDatas.swift */; };
+		F9373CF92BA80AB800E3F692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CF82BA80AB800E3F692 /* AppDelegate.swift */; };
+		F9373CFB2BA80AB800E3F692 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CFA2BA80AB800E3F692 /* SceneDelegate.swift */; };
+		F9373CFD2BA80AB800E3F692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CFC2BA80AB800E3F692 /* ViewController.swift */; };
+		F9373D002BA80AB800E3F692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9373CFE2BA80AB800E3F692 /* Main.storyboard */; };
+		F9373D022BA80AB900E3F692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9373D012BA80AB900E3F692 /* Assets.xcassets */; };
+		F9373D052BA80AB900E3F692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9373D032BA80AB900E3F692 /* LaunchScreen.storyboard */; };
+		F9373D0C2BA80AE300E3F692 /* NetworkDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373D0B2BA80AE300E3F692 /* NetworkDatas.swift */; };
+		F9373D0D2BA80B0400E3F692 /* NetworkDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373D0B2BA80AE300E3F692 /* NetworkDatas.swift */; };
+		F9373D0E2BA80B0900E3F692 /* RegisterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F9373CEB2BA7DB7E00E3F692 /* RegisterTool.m */; };
+		F9373D0F2BA80B0900E3F692 /* SechemaURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +37,29 @@
 		F9373CEB2BA7DB7E00E3F692 /* RegisterTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterTool.m; sourceTree = "<group>"; };
 		F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SechemaURLProtocol.m; sourceTree = "<group>"; };
 		F9373CEE2BA7E0E900E3F692 /* SechemaURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SechemaURLProtocol.h; sourceTree = "<group>"; };
-		F9373CF02BA7E91100E3F692 /* NetworkDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDatas.swift; sourceTree = "<group>"; };
+		F9373CF62BA80AB800E3F692 /* RedFansApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedFansApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9373CF82BA80AB800E3F692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9373CFA2BA80AB800E3F692 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9373CFC2BA80AB800E3F692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9373CFF2BA80AB800E3F692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9373D012BA80AB900E3F692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9373D042BA80AB900E3F692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9373D062BA80AB900E3F692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9373D0B2BA80AE300E3F692 /* NetworkDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDatas.swift; sourceTree = "<group>"; };
+		F9373D102BA80B4700E3F692 /* RedFansApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedFansApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9373D122BA80C8200E3F692 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F9373D132BA80C9800E3F692 /* App-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F9373CD02BA7CFAC00E3F692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9373CF32BA80AB800E3F692 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +74,7 @@
 			children = (
 				F9373CE72BA7DB6800E3F692 /* Classes */,
 				F9373CD52BA7CFAC00E3F692 /* RedFans */,
+				F9373CF72BA80AB800E3F692 /* RedFansApp */,
 				F9373CD42BA7CFAC00E3F692 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				F9373CD32BA7CFAC00E3F692 /* RedFans.app */,
+				F9373CF62BA80AB800E3F692 /* RedFansApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +94,6 @@
 				F9373CE92BA7DB7E00E3F692 /* RedFans-Bridging-Header.h */,
 				F9373CD62BA7CFAC00E3F692 /* AppDelegate.swift */,
 				F9373CD82BA7CFAC00E3F692 /* ViewController.swift */,
-				F9373CF02BA7E91100E3F692 /* NetworkDatas.swift */,
 				F9373CDA2BA7CFAE00E3F692 /* Assets.xcassets */,
 				F9373CDC2BA7CFAE00E3F692 /* Main.storyboard */,
 				F9373CDF2BA7CFAE00E3F692 /* RedFans.entitlements */,
@@ -76,6 +104,8 @@
 		F9373CE72BA7DB6800E3F692 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F9373D112BA80C6B00E3F692 /* Bridge */,
+				F9373D0A2BA80AD500E3F692 /* Datas */,
 				F9373CE82BA7DB6F00E3F692 /* Tools */,
 			);
 			path = Classes;
@@ -90,6 +120,38 @@
 				F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		F9373CF72BA80AB800E3F692 /* RedFansApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9373D102BA80B4700E3F692 /* RedFansApp-Bridging-Header.h */,
+				F9373CF82BA80AB800E3F692 /* AppDelegate.swift */,
+				F9373CFA2BA80AB800E3F692 /* SceneDelegate.swift */,
+				F9373CFC2BA80AB800E3F692 /* ViewController.swift */,
+				F9373CFE2BA80AB800E3F692 /* Main.storyboard */,
+				F9373D012BA80AB900E3F692 /* Assets.xcassets */,
+				F9373D032BA80AB900E3F692 /* LaunchScreen.storyboard */,
+				F9373D062BA80AB900E3F692 /* Info.plist */,
+			);
+			path = RedFansApp;
+			sourceTree = "<group>";
+		};
+		F9373D0A2BA80AD500E3F692 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				F9373D0B2BA80AE300E3F692 /* NetworkDatas.swift */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		F9373D112BA80C6B00E3F692 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				F9373D122BA80C8200E3F692 /* Bridging-Header.h */,
+				F9373D132BA80C9800E3F692 /* App-Swift.h */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +174,23 @@
 			productReference = F9373CD32BA7CFAC00E3F692 /* RedFans.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F9373CF52BA80AB800E3F692 /* RedFansApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9373D092BA80AB900E3F692 /* Build configuration list for PBXNativeTarget "RedFansApp" */;
+			buildPhases = (
+				F9373CF22BA80AB800E3F692 /* Sources */,
+				F9373CF32BA80AB800E3F692 /* Frameworks */,
+				F9373CF42BA80AB800E3F692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedFansApp;
+			productName = RedFansApp;
+			productReference = F9373CF62BA80AB800E3F692 /* RedFansApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,6 +204,9 @@
 					F9373CD22BA7CFAC00E3F692 = {
 						CreatedOnToolsVersion = 15.0;
 						LastSwiftMigration = 1500;
+					};
+					F9373CF52BA80AB800E3F692 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
@@ -142,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				F9373CD22BA7CFAC00E3F692 /* RedFans */,
+				F9373CF52BA80AB800E3F692 /* RedFansApp */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +239,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9373CF42BA80AB800E3F692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9373D052BA80AB900E3F692 /* LaunchScreen.storyboard in Resources */,
+				F9373D022BA80AB900E3F692 /* Assets.xcassets in Resources */,
+				F9373D002BA80AB800E3F692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -163,11 +256,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9373CF12BA7E91100E3F692 /* NetworkDatas.swift in Sources */,
+				F9373D0C2BA80AE300E3F692 /* NetworkDatas.swift in Sources */,
 				F9373CEC2BA7DB7E00E3F692 /* RegisterTool.m in Sources */,
 				F9373CD92BA7CFAC00E3F692 /* ViewController.swift in Sources */,
 				F9373CD72BA7CFAC00E3F692 /* AppDelegate.swift in Sources */,
 				F9373CEF2BA7E0E900E3F692 /* SechemaURLProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9373CF22BA80AB800E3F692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9373D0E2BA80B0900E3F692 /* RegisterTool.m in Sources */,
+				F9373D0F2BA80B0900E3F692 /* SechemaURLProtocol.m in Sources */,
+				F9373D0D2BA80B0400E3F692 /* NetworkDatas.swift in Sources */,
+				F9373CFD2BA80AB800E3F692 /* ViewController.swift in Sources */,
+				F9373CF92BA80AB800E3F692 /* AppDelegate.swift in Sources */,
+				F9373CFB2BA80AB800E3F692 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +286,22 @@
 				F9373CDD2BA7CFAE00E3F692 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9373CFE2BA80AB800E3F692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9373CFF2BA80AB800E3F692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9373D032BA80AB900E3F692 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9373D042BA80AB900E3F692 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -362,6 +484,69 @@
 			};
 			name = Release;
 		};
+		F9373D072BA80AB900E3F692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Z6KWCR3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedFansApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.at.fans.RedFansApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RedFansApp/RedFansApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9373D082BA80AB900E3F692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Z6KWCR3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedFansApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.at.fans.RedFansApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RedFansApp/RedFansApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +564,15 @@
 			buildConfigurations = (
 				F9373CE32BA7CFAE00E3F692 /* Debug */,
 				F9373CE42BA7CFAE00E3F692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9373D092BA80AB900E3F692 /* Build configuration list for PBXNativeTarget "RedFansApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9373D072BA80AB900E3F692 /* Debug */,
+				F9373D082BA80AB900E3F692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

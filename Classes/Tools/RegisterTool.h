@@ -13,11 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)registerClass;
 
-//+ (BOOL)isMarkRequest:(NSURLRequest *) request;
-//
-//+ (void)markRequest:(NSURLRequest *) request;
-//
-//+ (NSURLRequest *)mutableRequest:(NSURLRequest *) request;
++ (NSString *)cookieString;
 
 @end
 

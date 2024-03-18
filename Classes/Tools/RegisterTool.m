@@ -8,6 +8,7 @@
 #import "RegisterTool.h"
 
 #import "SechemaURLProtocol.h"
+#import <WebKit/WebKit.h>
 
 //#define kURLProtocolHandledKey @"kURLProtocolHandledKey"
 
@@ -34,18 +35,41 @@
     [NSURLProtocol registerClass:[SechemaURLProtocol class]];
 }
 
-//+ (BOOL)isMarkRequest:(NSURLRequest *) request {
-//    return [NSURLProtocol propertyForKey:kURLProtocolHandledKey inRequest:request];
-//}
-//
-//+ (void)markRequest:(NSURLRequest *) request {
-//    NSMutableURLRequest *mutableReqeust = [request mutableCopy];
-//    // 标示改request已经处理过了，防止无限循环
-//    [NSURLProtocol setProperty:@YES forKey:kURLProtocolHandledKey inRequest:mutableReqeust];
-//}
-//
-//+ (NSURLRequest *)mutableRequest:(NSURLRequest *) request {
-//    return request.mutableCopy;
-//}
+static NSString *_cookieString;
+static NSMutableDictionary *_cookieDatas;
+
++ (NSString *)cookieString {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self updateCookieDatas];
+    });
+    return _cookieString;
+}
+
++ (void)updateCookieString {
+    NSMutableArray *data = NSMutableArray.array;
+    for (NSString *key in _cookieDatas.allKeys) {
+        [data addObject:[NSString stringWithFormat:@"%@=%@", key, _cookieDatas[key]]];
+    }
+    _cookieString = [data componentsJoinedByString:@"; "];
+}
+
++ (void)updateCookieDatas {
+    WKWebsiteDataStore *store = WKWebsiteDataStore.defaultDataStore;
+    
+    [store.httpCookieStore getAllCookies:^(NSArray<NSHTTPCookie *> * _Nonnull allCookies) {
+        for (NSHTTPCookie *cookie in allCookies) {
+            if ([cookie.domain containsString:@"xiaohongshu.com"]) {
+                [self addCookie:cookie];
+            }
+            [NSHTTPCookieStorage.sharedHTTPCookieStorage setCookie:cookie];
+        }
+        [self updateCookieString];
+    }];
+}
+
++ (void)addCookie:(NSHTTPCookie *)cookie {
+    _cookieDatas = _cookieDatas ?: NSMutableDictionary.dictionary;
+    _cookieDatas[cookie.name] = cookie.value;
+}
 
 @end
