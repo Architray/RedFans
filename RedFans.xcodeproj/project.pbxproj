@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9373CD72BA7CFAC00E3F692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CD62BA7CFAC00E3F692 /* AppDelegate.swift */; };
+		F9373CD92BA7CFAC00E3F692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CD82BA7CFAC00E3F692 /* ViewController.swift */; };
+		F9373CDB2BA7CFAE00E3F692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9373CDA2BA7CFAE00E3F692 /* Assets.xcassets */; };
+		F9373CDE2BA7CFAE00E3F692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9373CDC2BA7CFAE00E3F692 /* Main.storyboard */; };
+		F9373CEC2BA7DB7E00E3F692 /* RegisterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F9373CEB2BA7DB7E00E3F692 /* RegisterTool.m */; };
+		F9373CEF2BA7E0E900E3F692 /* SechemaURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */; };
+		F9373CF12BA7E91100E3F692 /* NetworkDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9373CF02BA7E91100E3F692 /* NetworkDatas.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9373CD32BA7CFAC00E3F692 /* RedFans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedFans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9373CD62BA7CFAC00E3F692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9373CD82BA7CFAC00E3F692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9373CDA2BA7CFAE00E3F692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9373CDD2BA7CFAE00E3F692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9373CDF2BA7CFAE00E3F692 /* RedFans.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedFans.entitlements; sourceTree = "<group>"; };
+		F9373CE92BA7DB7E00E3F692 /* RedFans-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedFans-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9373CEA2BA7DB7E00E3F692 /* RegisterTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterTool.h; sourceTree = "<group>"; };
+		F9373CEB2BA7DB7E00E3F692 /* RegisterTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterTool.m; sourceTree = "<group>"; };
+		F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SechemaURLProtocol.m; sourceTree = "<group>"; };
+		F9373CEE2BA7E0E900E3F692 /* SechemaURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SechemaURLProtocol.h; sourceTree = "<group>"; };
+		F9373CF02BA7E91100E3F692 /* NetworkDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDatas.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9373CD02BA7CFAC00E3F692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9373CCA2BA7CFAC00E3F692 = {
+			isa = PBXGroup;
+			children = (
+				F9373CE72BA7DB6800E3F692 /* Classes */,
+				F9373CD52BA7CFAC00E3F692 /* RedFans */,
+				F9373CD42BA7CFAC00E3F692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9373CD42BA7CFAC00E3F692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9373CD32BA7CFAC00E3F692 /* RedFans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9373CD52BA7CFAC00E3F692 /* RedFans */ = {
+			isa = PBXGroup;
+			children = (
+				F9373CE92BA7DB7E00E3F692 /* RedFans-Bridging-Header.h */,
+				F9373CD62BA7CFAC00E3F692 /* AppDelegate.swift */,
+				F9373CD82BA7CFAC00E3F692 /* ViewController.swift */,
+				F9373CF02BA7E91100E3F692 /* NetworkDatas.swift */,
+				F9373CDA2BA7CFAE00E3F692 /* Assets.xcassets */,
+				F9373CDC2BA7CFAE00E3F692 /* Main.storyboard */,
+				F9373CDF2BA7CFAE00E3F692 /* RedFans.entitlements */,
+			);
+			path = RedFans;
+			sourceTree = "<group>";
+		};
+		F9373CE72BA7DB6800E3F692 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9373CE82BA7DB6F00E3F692 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F9373CE82BA7DB6F00E3F692 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F9373CEA2BA7DB7E00E3F692 /* RegisterTool.h */,
+				F9373CEB2BA7DB7E00E3F692 /* RegisterTool.m */,
+				F9373CEE2BA7E0E900E3F692 /* SechemaURLProtocol.h */,
+				F9373CED2BA7E0E800E3F692 /* SechemaURLProtocol.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9373CD22BA7CFAC00E3F692 /* RedFans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9373CE22BA7CFAE00E3F692 /* Build configuration list for PBXNativeTarget "RedFans" */;
+			buildPhases = (
+				F9373CCF2BA7CFAC00E3F692 /* Sources */,
+				F9373CD02BA7CFAC00E3F692 /* Frameworks */,
+				F9373CD12BA7CFAC00E3F692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedFans;
+			productName = RedFans;
+			productReference = F9373CD32BA7CFAC00E3F692 /* RedFans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9373CCB2BA7CFAC00E3F692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F9373CD22BA7CFAC00E3F692 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = F9373CCE2BA7CFAC00E3F692 /* Build configuration list for PBXProject "RedFans" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9373CCA2BA7CFAC00E3F692;
+			productRefGroup = F9373CD42BA7CFAC00E3F692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9373CD22BA7CFAC00E3F692 /* RedFans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9373CD12BA7CFAC00E3F692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9373CDB2BA7CFAE00E3F692 /* Assets.xcassets in Resources */,
+				F9373CDE2BA7CFAE00E3F692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9373CCF2BA7CFAC00E3F692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9373CF12BA7E91100E3F692 /* NetworkDatas.swift in Sources */,
+				F9373CEC2BA7DB7E00E3F692 /* RegisterTool.m in Sources */,
+				F9373CD92BA7CFAC00E3F692 /* ViewController.swift in Sources */,
+				F9373CD72BA7CFAC00E3F692 /* AppDelegate.swift in Sources */,
+				F9373CEF2BA7E0E900E3F692 /* SechemaURLProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9373CDC2BA7CFAE00E3F692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9373CDD2BA7CFAE00E3F692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9373CE02BA7CFAE00E3F692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9373CE12BA7CFAE00E3F692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F9373CE32BA7CFAE00E3F692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RedFans/RedFans.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Z6KWCR3T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.at.fans.RedFans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RedFans/RedFans-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9373CE42BA7CFAE00E3F692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RedFans/RedFans.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Z6KWCR3T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.at.fans.RedFans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RedFans/RedFans-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9373CCE2BA7CFAC00E3F692 /* Build configuration list for PBXProject "RedFans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9373CE02BA7CFAE00E3F692 /* Debug */,
+				F9373CE12BA7CFAE00E3F692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9373CE22BA7CFAE00E3F692 /* Build configuration list for PBXNativeTarget "RedFans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9373CE32BA7CFAE00E3F692 /* Debug */,
+				F9373CE42BA7CFAE00E3F692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9373CCB2BA7CFAC00E3F692 /* Project object */;
+}
